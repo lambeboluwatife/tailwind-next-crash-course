@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: "Times New Roman", Times, serif;
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap");
+
+body {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-style: normal;
 }
