@@ -4,19 +4,33 @@ const Navbar = () => {
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <span className="font-bold text-xl">L.B.D</span>
       </div>
-      <div className="flex flex-col align-center justify-between text-white space-x-6 md:flex-row">
-        <a href="#" className="text-white hover:text-black">
-          Home
-        </a>
-        <a href="#" className="text-white hover:text-black">
-          About Me
-        </a>
-        <a href="#" className="text-white hover:text-black">
-          Portfolio
-        </a>
-        <a href="#" className="text-white hover:text-black">
-          Contact
-        </a>
+      <div class="w-full block flex-grow sm:flex sm:items-center sm:w-auto">
+        <div class="text-sm sm:flex-grow">
+          <a
+            href="#"
+            class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white mr-4"
+          >
+            Home
+          </a>
+          <a
+            href="#"
+            class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white mr-4"
+          >
+            About Me
+          </a>
+          <a
+            href="#"
+            class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white mr-4"
+          >
+            Portfolio
+          </a>
+          <a
+            href="#"
+            class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white"
+          >
+            Contact
+          </a>
+        </div>
       </div>
       <div>
         <a
