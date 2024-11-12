@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         "twitter-blue": "#1DA1F2",
       },
+      fontFamily: {
+        faculty: ["Faculty Glyphic", "sans-serif"],
+      },
     },
   },
   plugins: [],
