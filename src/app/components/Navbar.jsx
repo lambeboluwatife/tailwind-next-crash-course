@@ -2,31 +2,31 @@ const Navbar = () => {
   return (
     <nav className="p-6 flex flex-wrap bg-blue-700 items-center justify-between md:flex-row">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <span className="font-bold text-xl">L.B.D</span>
+        <span className="font-bold text-xl tracking-widest">L.B.D</span>
       </div>
-      <div class="w-full block flex-grow sm:flex sm:items-center sm:w-auto">
-        <div class="text-sm sm:flex-grow">
+      <div class="w-full flex-grow sm:flex sm:items-center sm:w-auto">
+        <div class="text-sm sm:flex-grow space-x-4">
           <a
             href="#"
-            class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white mr-4"
+            class="block sm:inline-block sm:mt-0 text-teal-200 hover:text-white"
           >
             Home
           </a>
           <a
             href="#"
-            class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white mr-4"
+            class="block sm:inline-block sm:mt-0 text-teal-200 hover:text-white"
           >
             About Me
           </a>
           <a
             href="#"
-            class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white mr-4"
+            class="block sm:inline-block sm:mt-0 text-teal-200 hover:text-white"
           >
             Portfolio
           </a>
           <a
             href="#"
-            class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white"
+            class="block sm:inline-block sm:mt-0 text-teal-200 hover:text-white"
           >
             Contact
           </a>
