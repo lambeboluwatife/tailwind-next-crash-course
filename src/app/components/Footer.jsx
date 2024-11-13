@@ -32,6 +32,16 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <div className="w-full block">
+        <form>
+          <input
+            class="rounded-lg outline-none border-white font-1xl"
+            type="text"
+            name="message"
+            placeholder="Send a message"
+          />
+        </form>
+      </div>
     </footer>
   );
 };
